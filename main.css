@@ -8,7 +8,13 @@ body {
     background-color: rgb(255, 200, 20);
     color: white;
     Font-size: 23px;
-    font-family:"nunito", sans-serif;
+    font-family:"nunito", sans-serif;   
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 420px;
+    
+    
   }
 #rightSide {
     padding: 20px;
@@ -16,7 +22,10 @@ body {
     float: right;
     word-spacing: 25px;
     font-size: 23px;
-    font-family:"nunito", sans-serif;
+    font-family:"nunito", sans-serif;   
+    position: fixed;
+    top: 0;
+    right: 0;
 }   
 a{
     text-decoration:none;
@@ -27,8 +36,9 @@ a{
 }
 #textbox {
     display: inline-flex;
+    position:static;
     width: 400px;
-    margin: 0 auto;
+    margin: 100px auto;
     padding: 30px;
     float: center;
     font-family:"nunito", sans-serif;
