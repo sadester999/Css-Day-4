@@ -9,74 +9,89 @@ body {
     color: white;
     Font-size: 23px;
     font-family:"nunito", sans-serif;   
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     right: 420px;
-    
-    
   }
 #rightSide {
     padding: 20px;
     background-color: rgb(255, 200, 20);
-    float: right;
     word-spacing: 25px;
     font-size: 23px;
     font-family:"nunito", sans-serif;   
-    position: fixed;
+    position: absolute;
     top: 0;
     right: 0;
 }   
-a{
+a {
     text-decoration:none;
     color:white;
     background-color: rgb(255, 200, 20);
     margin-left: 5px;
     font-family:"nunito", sans-serif;
 }
-#textbox {
-    display: inline-flex;
-    position:static;
-    width: 400px;
-    margin: 100px auto;
-    padding: 30px;
-    float: center;
-    font-family:"nunito", sans-serif;
-}
-.image1 {
-    background-color: white;
-    padding: 50px;
-    border: 2px solid rgb(255, 200, 20);
-    margin: 0 10px;
-}
-.image2 {
-    background-color: white;
-    border: 2px solid rgb(255, 200, 20);
-    padding: 50px;
-    margin: 0 10px;
-}
-.image3 {
-    background-color: white;
-    border: 2px solid rgb(255, 200, 20);
-    padding: 50px;
-    margin: 0 10px;
-}
-.image4 {
-    background-color: white;
-    border: 2px solid rgb(255, 200, 20);
-    padding: 50px;
-    margin: 0 10px;
-}
-button {
-    color: white;
-    background-color:rgb(255, 200, 20);
-    border: none;
-    text-align: center;
-    padding: 10px 107px;
-    border-radius: 3px; 
-    text-wrap: nowrap;  
-    font-family:"nunito", sans-serif;
-    font-size: 15px;
+.textbox {
+    display: flex;  
+    flex-wrap: wrap; 
+    margin-left: auto;
+    margin-right: auto;
+
+    .image1 {
+        background-color: white;
+        padding: 50px;
+        border: 2px solid rgb(255, 200, 20);
+        margin-top: 100px;
+        font-family:"nunito", sans-serif;
+        width: 280px;
+        height: 500px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .image2 {
+        background-color: white;
+        border: 2px solid rgb(255, 200, 20);
+        padding: 50px;
+        margin-top: 100px;
+        font-family:"nunito", sans-serif;
+        width: 280px;
+        height: 500px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .image3 {
+        background-color: white;
+        border: 2px solid rgb(255, 200, 20);
+        padding: 50px;
+        margin-top: 100px;
+        font-family:"nunito", sans-serif;
+        width: 280px;
+        height: 500px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .image4 {
+        background-color: white;
+        border: 2px solid rgb(255, 200, 20);
+        padding: 50px;
+        margin-top: 100px;
+        font-family:"nunito", sans-serif;
+        width: 280px;
+        height: 500px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    button {
+        color: white;
+        background-color:rgb(255, 200, 20);
+        border: none;
+        text-align: center;
+        padding: 10px 107px;
+        border-radius: 3px; 
+        text-wrap: nowrap;  
+        font-family:"nunito", sans-serif;
+        font-size: 15px;
+    }
 }
 
 button:hover {
